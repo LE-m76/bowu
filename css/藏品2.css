@@ -1,0 +1,363 @@
+#main>#head-top {
+	height: 130px;
+	z-index: 99;
+}
+
+#main>#head-top-daoHang {
+
+	/* background: rgba(0, 0, 0, 0.1); */
+}
+
+#center {
+	/* position: relative; */
+	height: 3000px;
+	/* top: -115px; */
+	margin-top: -240px;
+	background-color: #7D352B;
+	margin-bottom: 150px;
+	margin-bottom: 100px;
+
+}
+
+#center>div>img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	opacity: 0.23;
+}
+
+#center>div {
+	padding-top: 200px;
+}
+
+#center-top {
+	position: relative;
+	padding-top: 120px;
+	height: 800px;
+}
+
+#center-top>img:first-of-type {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 200px;
+	opacity: 0.03;
+}
+
+#center-top>img:nth-of-type(2) {
+	position: absolute;
+	width: 220px;
+	top: 75px;
+	left: 820px;
+}
+
+#center-top>img:nth-of-type(3) {
+	position: absolute;
+	width: 85%;
+	left: 150px;
+	bottom: 0px;
+}
+
+#center-top>img:nth-of-type(4) {
+	margin-top: 60px;
+}
+
+#center-top>img:nth-of-type(4),
+#center-top>img:nth-of-type(5),
+#center-top>img:nth-of-type(6),
+#center-top>img:nth-of-type(7) {
+	height: 200px;
+	width: 100%;
+}
+
+#center-top>img:nth-of-type(5) {
+	margin-top: -60px;
+}
+
+#center-top>img:nth-of-type(6) {
+	margin-top: -60px;
+}
+
+#center-top>img:nth-of-type(7) {
+	margin-top: -60px;
+}
+
+.cangpin1 {
+	width: 200px;
+	z-index: 1;
+	position: absolute;
+	bottom: 150px;
+	left: 30px;
+}
+
+.cangpin2 {
+	position: absolute;
+	width: 430px;
+	transform: rotate(20deg);
+	left: 410px;
+	bottom: 150px;
+}
+
+.cangpin3 {
+	position: absolute;
+	width: 170px;
+	bottom: 430px;
+	left: 700px;
+}
+
+.cangpin4 {
+	position: absolute;
+	bottom: 320px;
+	left: 1200px;
+	width: 130px;
+}
+
+.cangpin5 {
+	position: absolute;
+	width: 150px;
+	right: 10px;
+	bottom: 150px;
+}
+
+#center-top>h2 {
+	color: #F3EDDF;
+	font-weight: bolder;
+	font-family: 宋体;
+	font-size: 70px;
+	position: absolute;
+	right: 200px;
+	top: 50px;
+}
+
+#center-top>img:last-of-type {
+	width: 35px;
+	position: absolute;
+	right: 150px;
+	top: 100px;
+}
+
+/* 头部内容 */
+#center-top_DaoHang {
+	position: relative;
+	width: 1730px;
+	height: 100px;
+	margin: auto;
+	z-index: 99;
+}
+
+#center-top_DaoHang>ul>li {
+	float: left;
+	line-height: 100px;
+	width: 345px;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+#center-top_DaoHang>ul>li>a {
+	color: antiquewhite;
+}
+
+#center-top_DaoHang>ul>li:nth-of-type(2) {
+	background: url(../img/藏品/tab-active.png) 130px 75px no-repeat;
+}
+
+/* 下半部分 */
+#center-bottom {
+	position: relative;
+	margin-top: 50px;
+	height: 1800px;
+	background-color: #F3EDE0;
+}
+
+#center-bottom_neiRong {
+	width: 1575px;
+	margin: auto;
+	height: 1300px;
+	position: relative;
+	top: 100px;
+}
+
+#center-bottom_neiRong>a {
+	display: inline-block;
+	width: 500px;
+	height: 300px;
+	margin: 10px;
+	position: relative;
+	z-index: 99;
+	overflow: hidden;
+
+}
+
+#center-bottom_neiRong>a>div {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	/* bottom: -300px; */
+	/* margin-top: 300px; */
+	transform: translateY(300px);
+	color: #F3EDE0;
+	font-size: 40px;
+	text-align: center;
+	font-family: 宋体;
+	background: rgba(0, 0, 0, 0.3);
+	/* display: none; */
+	/* opacity: 0; */
+	transition: all 0.5s ease;
+
+
+}
+
+#center-bottom_neiRong>a>div>p {
+	margin-top: 100px;
+
+}
+
+#center-bottom_neiRong>a>div>img {
+	margin-top: 30px;
+	transform: rotate(90deg);
+}
+
+#center-bottom_neiRong>a:hover div {
+	transform: translateY(0px);
+	/* opacity: 1; */
+}
+
+/* 照片 */
+#center-bottom_neiRong>a:nth-of-type(1) {
+	background: url(../img/藏品/数字/10-40-2004851567474983.jpeg) no-repeat;
+	background-size: cover;
+}
+
+#center-bottom_neiRong>a:nth-of-type(2) {
+	background: url(../img/藏品/数字/10-42-340502113464829.jpeg) no-repeat;
+	background-size: cover;
+}
+
+#center-bottom_neiRong>a:nth-of-type(3) {
+	background: url(../img/藏品/数字/14-19-330776-197263189.jpeg) no-repeat;
+	background-size: cover;
+}
+
+#center-bottom_neiRong>a:nth-of-type(4) {
+	background: url(../img/藏品/数字/14-19-180995-578546619.jpeg) no-repeat;
+	background-size: cover;
+}
+
+#center-bottom_neiRong>a:nth-of-type(5) {
+	background: url(../img/藏品/数字/14-18-570094-1601655691.jpeg) no-repeat;
+	background-size: cover;
+}
+
+#center-bottom_neiRong>a:nth-of-type(6) {
+	background: url(../img/藏品/数字/14-18-38033459377012.jpeg) no-repeat;
+	background-size: cover;
+}
+
+#center-bottom_neiRong>a:nth-of-type(7) {
+	background: url(../img/藏品/数字/14-18-220796-1626607605.jpeg) no-repeat;
+	background-size: cover;
+}
+
+#center-bottom_neiRong>a:nth-of-type(8) {
+	background: url(../img/藏品/数字/14-18-080945-517904869.jpeg) no-repeat;
+	background-size: cover;
+}
+
+#center-bottom_neiRong>a:nth-of-type(9) {
+	background: url(../img/藏品/数字/14-17-510741-94087727.jpeg) no-repeat;
+	background-size: cover;
+}
+
+#center-bottom_neiRong>a:nth-of-type(10) {
+	background: url(../img/藏品/数字/14-17-310833-2138383773.jpeg) no-repeat;
+	background-size: cover;
+}
+
+#center-bottom_neiRong>a:nth-of-type(11) {
+	background: url(../img/藏品/数字/14-17-1405881769295471.jpeg) no-repeat;
+	background-size: cover;
+}
+
+#center-bottom_neiRong>a:nth-of-type(12) {
+	background: url(../img/藏品/数字/14-16-5506141785927562.jpeg) no-repeat;
+	background-size: cover;
+}
+
+/* 页码 */
+#center-bottom_yeMa {
+	width: 700px;
+	margin: auto;
+	margin-top: 130px;
+	height: 50px;
+}
+
+#center-bottom_yeMa>a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	color: #7D352B;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 10px;
+	font-size: 20px;
+	position: relative;
+	z-index: 99;
+}
+
+#center-bottom_yeMa>a:first-of-type {
+	background-color: #7D352B;
+	color: #F3EDDF;
+	margin-left: 170px;
+}
+
+#center-bottom_yeMa>a:last-of-type {
+	background-color: #7D352B;
+	color: #F3EDDF;
+}
+
+#center-bottom_yeMa>a:hover {
+	background-color: #7D352B;
+	color: #F3EDDF;
+}
+
+/* 底部 */
+#bottom {
+	background: url(../img/藏品/数字/footer-bg-red.png) no-repeat;
+	color: #F3EDDF;
+	z-index: 99;
+}
+
+#bottom-Top>div>a {
+	color: #F3EDDF;
+}
+
+#bottom-Top>div>ul>li>a {
+	color: #F3EDDF;
+}
+
+#bottom-beiJing {
+	background: url(../img/藏品/数字/背景.png);
+}
+
+#bottom-Bottom>ul>li>a {
+	color: #F3EDDF;
+}
+
+#bottom-Bottom>a {
+	color: #F3EDDF;
+}
+
+#bottom-Bottom>a>div {
+	color: #7D352B;
+}
+
+#bottom-Center {
+	color: #7D352B;
+}
+
+/* #bottom-Bottom>a>div{
+				
+			} */

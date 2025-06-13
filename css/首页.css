@@ -1,0 +1,182 @@
+/* 导航栏 */
+* {
+	box-sizing: border-box;
+	list-style: none;
+	padding: 0px;
+	/*zoom: 100%;*/
+	margin: 0px auto;
+	font-family: "黑体";
+}
+
+header {
+	border: 3px solid black;
+	height: 918px;
+	margin-bottom: 10px;
+}
+
+.head {
+	height: 90px;
+	margin-top: 20px;
+	line-height: 50px;
+	margin-left: -10px;
+	z-index: 1;
+}
+
+.logo {
+	z-index: 100;
+	margin-left: -10px;
+	width: 250px;
+	border-radius: 0px 50rem 50rem 0px;
+	background-color: #fff015;
+	float: left;
+}
+
+.logo {
+	clear: left;
+}
+
+.logo>a>img {
+	margin-top: 20px;
+	margin-left: 40px;
+}
+
+.aa {
+	height: 1000px;
+}
+
+.xiala {
+	position: absolute;
+	color: wheat;
+	text-align: center;
+	/*position: absolute;*/
+	float: right;
+	width: 1200px;
+	height: 100px;
+	top: 10px;
+	right: 10px;
+}
+
+.xiala {
+	clear: right;
+}
+
+.xiala {
+	clear: right;
+}
+
+.xiala>span>ul {
+	margin-top: 0px;
+	float: right;
+	overflow: hidden;
+}
+
+.xiala>span>ul>li {
+	float: left;
+	width: 50px;
+	line-height: 40px;
+	margin-right: 10px;
+}
+
+.xiala>span:nth-of-type(2) {
+	margin-top: 0px;
+	float: right;
+}
+
+.xiala>span>div {
+	float: left;
+	line-height: 30px;
+	margin-left: 50px;
+	margin-right: 20px;
+	position: relative;
+}
+
+.xiala>span>div>ul {
+	position: absolute;
+	left: -35px;
+	width: 100px;
+	top: 10px;
+	display: none;
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.xiala>span:nth-of-type(2)>div>ul>li {
+	/*text-align: left;*/
+	color: white;
+	line-height: 40px;
+}
+
+.xiala>span>div:hover {
+	cursor: pointer;
+	animation: 0.5s name1 forwards;
+}
+
+@keyframes name1 {
+	0 {
+		color: wheat;
+	}
+
+	50% {
+		color: white;
+	}
+
+	100% {
+		color: white;
+	}
+}
+
+
+
+.xiala>span>div:hover ul {
+	/*background-color: black;*/
+	display: block;
+	animation: 0.5s name forwards;
+}
+
+.xiala>span>div>ul>li:hover {
+	color: wheat;
+}
+
+@keyframes name {
+	0 {
+		display: none;
+		top: 10px;
+	}
+
+	50% {
+		display: none;
+		top: 25px;
+	}
+
+	100% {
+		display: block;
+		top: 25px;
+	}
+}
+
+.lunbo {
+	height: 100%;
+	width: 100%;
+	margin-top: -120px;
+	/*position: absolute;
+	top: 0px;
+	left: 0px;*/
+
+	z-index: -100;
+}
+
+.lunbo>video {
+	width: 100%;
+}
+
+section {
+	margin-top: 10px;
+	border: 2px solid red;
+}
+
+.neirong {
+	border: 1px solid red;
+	margin-top: 809px;
+	width: 100%;
+	height: 1000px;
+}

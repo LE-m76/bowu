@@ -1,0 +1,207 @@
+#head-top-lunBo {
+	position: relative;
+	top: -110px;
+	z-index: -1;
+}
+
+#head-top-lunBo>img {
+	width: 100%;
+}
+
+#center {
+	height: 2150px;
+	margin-top: -235px;
+	background-color: #F3EDE0;
+	position: relative;
+	/* padding-top: 200px; */
+}
+
+#center-top_KaiTou {
+	width: 1500px;
+	height: 210px;
+	background: url(../img/社教/39841db5ce184a0d26986f853874c16.png) no-repeat;
+	background-size: cover;
+	position: relative;
+	left: 200px;
+	top: -120px;
+	/* padding-top: -300px;
+				margin-left: 200px; */
+}
+
+#center-top_KaiTou>ul>li {
+	float: left;
+	width: 373px;
+	text-align: center;
+	font-size: 30px;
+	line-height: 210px;
+}
+
+#center-top_KaiTou>ul>li:nth-of-type(1) {
+	background: url(../img/社教/tab-active.png) 140px 130px no-repeat;
+
+}
+
+#center-top_KaiTou>ul>li>a {
+	color: #F3EDE0;
+}
+
+/* 内容 */
+#center-NeiRong {
+	position: relative;
+	width: 1350px;
+	height: 1450px;
+	box-shadow: 2px 2px 15px #7C7C7C;
+	background-color: #F9F7F3;
+	margin-left: 280px;
+}
+
+#center-NeiRong>img {
+	position: absolute;
+	margin: 15px;
+}
+
+#center-NeiRong>img:nth-of-type(1) {
+	left: 0px;
+	top: 0xp;
+	transform: rotate(-90deg);
+}
+
+#center-NeiRong>img:nth-of-type(2) {
+	right: 0px;
+	top: 0px;
+}
+
+#center-NeiRong>img:nth-of-type(3) {
+	right: 0px;
+	bottom: 0px;
+	transform: rotate(90deg);
+}
+
+#center-NeiRong>img:nth-of-type(4) {
+	left: 0px;
+	bottom: 0px;
+	transform: rotate(-180deg);
+}
+
+#center-NeiRong>img:nth-of-type(5) {
+	width: 130px;
+	right: 50px;
+	top: -100px;
+}
+
+/* 三个div */
+#center-NeiRong>div {
+	/* border: 1px solid red; */
+	width: 1200px;
+	margin: auto;
+}
+
+#center-NeiRong>div>h2 {
+	font-weight: inherit;
+	font-family: 宋体;
+	color: #833E35;
+	font-size: 35px;
+}
+
+#center-NeiRong>div>p {
+	text-indent: 2em;
+	font-size: 19px;
+	line-height: 30px;
+}
+
+#center-NeiRong>div:nth-of-type(1) {
+	padding-top: 50px;
+}
+
+#center-NeiRong>div:nth-of-type(-n+2) {
+	padding-bottom: 30px;
+	border-bottom: 1px dashed #833E35;
+}
+
+#center-NeiRong>div:nth-of-type(1)>p {
+	margin-top: 25px;
+}
+
+#center-NeiRong>div:nth-of-type(n+2) {
+	margin-top: 40px;
+}
+
+/* 联系我们 */
+#center-NeiRong-center>p {
+	margin-left: -35px;
+}
+
+#center-NeiRong-center>p:first-of-type {
+	margin-top: 25px;
+}
+
+#center-NeiRong-center>p:last-of-type {
+	margin-top: 10px;
+}
+
+#center-NeiRong-center>p>span {
+	margin-left: 250px;
+}
+
+/* 门店信息 */
+#center-NeiRong-bottom>ul {
+	overflow: hidden;
+	margin-top: 25px;
+}
+
+#center-NeiRong-bottom>ul>li {
+	height: 120px;
+	float: left;
+	width: 595px;
+	margin-top: 20px;
+}
+
+#center-NeiRong-bottom>ul>li>img {
+	width: 40px;
+}
+
+#center-NeiRong-bottom>ul>li>h2 {
+	font-weight: inherit;
+	color: #833E35;
+	line-height: 45px;
+	font-size: 21px;
+}
+
+#center-NeiRong-bottom>ul>li>p {
+	font-size: 16px;
+}
+
+/* 底部 */
+#bottom {
+	background: url(../img/藏品/数字/footer-bg-red.png) no-repeat;
+	color: #F3EDDF;
+	z-index: 99;
+}
+
+#bottom-Top>div>a {
+	color: #F3EDDF;
+}
+
+#bottom-Top>div>ul>li>a {
+	color: #F3EDDF;
+}
+
+#bottom-beiJing {
+	background: url(../img/藏品/数字/背景.png);
+}
+
+#bottom-Bottom>ul>li>a {
+	color: #F3EDDF;
+}
+
+#bottom-Bottom>a {
+	color: #F3EDDF;
+}
+
+#bottom-Bottom>a>div {
+	color: #7D352B;
+}
+
+#bottom-Center {
+	color: #7D352B;
+}

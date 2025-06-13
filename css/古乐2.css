@@ -1,0 +1,257 @@
+#head-top-lunBo {
+	position: relative;
+	top: -110px;
+	z-index: -1;
+}
+
+#head-top-lunBo>img {
+	width: 100%;
+}
+
+/* 头部 */
+#main>h2 {
+	position: absolute;
+	color: #F3EDE0;
+	top: 200px;
+	left: 320px;
+	font-weight: inherit;
+	font-family: 宋体;
+	font-size: 40px;
+	width: 50px;
+	letter-spacing: 10px;
+}
+
+#main>img:nth-of-type(1) {
+	position: absolute;
+	top: 390px;
+	left: 380px;
+	width: 30px;
+}
+
+#main>img:nth-of-type(2) {
+	position: absolute;
+	right: 50px;
+	top: 300px;
+	z-index: 5;
+	width: 1200px;
+}
+
+#red-Fang {
+	position: absolute;
+	z-index: 5;
+	top: 600px;
+	left: 170px;
+	width: 350px;
+	height: 150px;
+	color: ;
+	background: rgba(125, 53, 43, 0.9);
+}
+
+#center {
+	height: 1850px;
+	margin-top: -235px;
+	background-color: #F3EDE0;
+	position: relative;
+	padding-top: 200px;
+}
+
+#center-top_KaiTou {
+	width: 1500px;
+	height: 210px;
+	background: url(../img/社教/39841db5ce184a0d26986f853874c16.png) no-repeat;
+	background-size: cover;
+	/* position: absolute; */
+	/* left: 200px;
+				top: 200px; */
+	margin-left: 200px;
+	margin-bottom: 10px;
+}
+
+#center-top_KaiTou>ul>li {
+	float: left;
+	width: 498px;
+	text-align: center;
+	font-size: 30px;
+	line-height: 210px;
+}
+
+#center-top_KaiTou>ul>li:nth-of-type(3) {
+	background: url(../img/社教/tab-active.png) 205px 130px no-repeat;
+
+}
+
+#center-top_KaiTou>ul>li>a {
+	color: #F3EDE0;
+}
+
+/* 文物 */
+#center-bottom-WenWu {
+	width: 1300px;
+	margin-left: 300px;
+	height: 1000px;
+	margin-top: 50px;
+}
+
+#center-bottom-WenWu>div {
+	float: left;
+	width: 413px;
+	height: 280px;
+	margin: 10px;
+	margin-top: 40px;
+	background-color: #E2D2C5;
+	border-radius: 5px;
+	position: relative;
+	transition: all 0.2s ease-in-out;
+}
+
+#center-bottom-WenWu>div:hover {
+	transform: translateY(-10px);
+}
+
+#center-bottom-WenWu::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#center-bottom-WenWu>div>img {
+	position: absolute;
+}
+
+#center-bottom-WenWu>div>img:first-of-type {
+	width: 120px;
+	top: -30px;
+	left: 25px;
+}
+
+#center-bottom-WenWu>div>img:last-of-type {
+	bottom: 30px;
+	left: 20px;
+	width: 60px;
+}
+
+#center-bottom-WenWu>div>span {
+	position: absolute;
+	right: 30px;
+	font-size: 25px;
+	color: #7D352B;
+	bottom: 32px;
+}
+
+/* 调整图片  */
+#center-bottom-WenWu>div:nth-of-type(2)>img:first-of-type {
+	width: 250px;
+	top: -25px;
+	left: 25px;
+}
+
+#center-bottom-WenWu>div:nth-of-type(3)>img:first-of-type {
+	width: 240px;
+	top: -30px;
+	left: 10px;
+}
+
+#center-bottom-WenWu>div:nth-of-type(5)>img:first-of-type {
+	width: 240px;
+	top: -30px;
+	left: 10px;
+}
+
+#center-bottom-WenWu>div:nth-of-type(6)>img:first-of-type {
+	width: 100px;
+	top: -30px;
+	left: 10px;
+}
+
+#center-bottom-WenWu>div:nth-of-type(7)>img:first-of-type {
+	width: 210px;
+	top: -20px;
+	left: 10px;
+}
+
+#center-bottom-WenWu>div:nth-of-type(8)>img:first-of-type {
+	width: 210px;
+	top: -20px;
+	left: 10px;
+}
+
+#center-bottom-WenWu>div:nth-of-type(9)>img:first-of-type {
+	width: 210px;
+	top: -20px;
+	left: 10px;
+}
+
+/* 页码 */
+#center-bottom_yeMa {
+	position: absolute;
+	width: 700px;
+	margin-left: 670px;
+	margin-top: 50px;
+	height: 50px;
+
+}
+
+#center-bottom_yeMa>a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	color: #7D352B;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 10px;
+	font-size: 20px;
+	position: relative;
+	z-index: 99;
+}
+
+#center-bottom_yeMa>a:first-of-type {
+	background-color: #7D352B;
+	color: #F3EDDF;
+	margin-left: 170px;
+}
+
+#center-bottom_yeMa>a:last-of-type {
+	background-color: #7D352B;
+	color: #F3EDDF;
+}
+
+#center-bottom_yeMa>a:hover {
+	background-color: #7D352B;
+	color: #F3EDDF;
+}
+
+/* 底部 */
+#bottom {
+	background: url(../img/藏品/数字/footer-bg-red.png) no-repeat;
+	color: #F3EDDF;
+	z-index: 99;
+}
+
+#bottom-Top>div>a {
+	color: #F3EDDF;
+}
+
+#bottom-Top>div>ul>li>a {
+	color: #F3EDDF;
+}
+
+#bottom-beiJing {
+	background: url(../img/藏品/数字/背景.png);
+}
+
+#bottom-Bottom>ul>li>a {
+	color: #F3EDDF;
+}
+
+#bottom-Bottom>a {
+	color: #F3EDDF;
+}
+
+#bottom-Bottom>a>div {
+	color: #7D352B;
+}
+
+#bottom-Center {
+	color: #7D352B;
+}

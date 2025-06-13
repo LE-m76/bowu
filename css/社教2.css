@@ -1,0 +1,191 @@
+#head-top-lunBo {
+	position: relative;
+	top: -110px;
+	z-index: -1;
+}
+
+#head-top-lunBo>img {
+	width: 100%;
+}
+
+#center {
+	height: 3400px;
+	margin-top: -180px;
+	background-color: #F3EDE0;
+	position: relative;
+}
+
+#center-top_KaiTou {
+	width: 1500px;
+	height: 210px;
+	background: url(../img/社教/39841db5ce184a0d26986f853874c16.png) no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 200px;
+	top: -120px;
+}
+
+#center-top_KaiTou>ul>li {
+	float: left;
+	width: 745px;
+	text-align: center;
+	font-size: 30px;
+	line-height: 210px;
+}
+
+#center-top_KaiTou>ul>li:nth-of-type(2) {
+	background: url(../img/社教/tab-active.png) 330px 130px no-repeat;
+
+}
+
+#center-top_KaiTou>ul>li>a {
+	color: #F3EDE0;
+}
+
+/* 内容 */
+#center-NeiRong {
+	padding-top: 150px;
+	width: 1300px;
+	margin-left: 300px;
+}
+
+#center-NeiRong>div {
+	border: 1px solid #7D352B;
+	height: 500px;
+	margin-top: 40px;
+	padding-left: 10px;
+	position: relative;
+}
+
+/* 给div添加图片 */
+#center-NeiRong>div:nth-of-type(1) {
+	background: url(../img/社教/教育品牌/社教-教育品牌-1.png) no-repeat;
+	background-size: cover;
+}
+
+#center-NeiRong>div:nth-of-type(2) {
+	background: url(../img/社教/教育品牌/社教-教育品牌-2.png) no-repeat;
+	background-size: cover;
+}
+
+#center-NeiRong>div:nth-of-type(3) {
+	background: url(../img/社教/教育品牌/社教-教育品牌-3.png) no-repeat;
+	background-size: cover;
+}
+
+#center-NeiRong>div:nth-of-type(4) {
+	background: url(../img/社教/教育品牌/社教-教育品牌-4.png) no-repeat;
+	background-size: cover;
+}
+
+#center-NeiRong>div:nth-of-type(5) {
+	background: url(../img/社教/教育品牌/社教-教育品牌-5.png) no-repeat;
+	background-size: cover;
+}
+
+#center-NeiRong-bottom {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	background: url(../img/社教/教育品牌/社教-教育品牌-6.png) no-repeat;
+	background-size: cover;
+}
+
+#center-NeiRong-bottom>h2 {
+	font-size: 30px;
+	color: #F5F0E3;
+	font-weight: inherit;
+	font-family: 宋体;
+	margin-left: 30px;
+}
+
+#center-NeiRong-bottom>div:first-of-type {
+	width: 550px;
+	height: 1px;
+	background-color: #F3EDDF;
+	position: absolute;
+	bottom: 50px;
+	left: 260px;
+}
+
+#center-NeiRong-bottom>div:last-of-type {
+	background-color: #F3EDDF;
+	border-radius: 10px;
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	bottom: 47px;
+	left: 810px;
+}
+
+#center-NeiRong-bottom>span {
+	display: inline-block;
+	width: 120px;
+	line-height: 50px;
+	color: #F3EDDF;
+	border: 1px solid #F3EDDF;
+	position: absolute;
+	bottom: 25px;
+	right: 100px;
+	text-align: center;
+	border-radius: 20rem;
+}
+
+/* 特殊 */
+#center-NeiRong>a>div:nth-of-type(2) #center-NeiRong-bottom>div:first-of-type {
+	width: 450px;
+	left: 360px;
+}
+
+#center-NeiRong>a>div:nth-of-type(3) #center-NeiRong-bottom>div:first-of-type {
+	width: 450px;
+	left: 360px;
+}
+
+#center-NeiRong>a>div:nth-of-type(4) #center-NeiRong-bottom>div:first-of-type {
+	width: 650px;
+	left: 160px;
+}
+
+#center-NeiRong>a>div:nth-of-type(5) #center-NeiRong-bottom>div:first-of-type {
+	width: 650px;
+	left: 160px;
+}
+
+/* 底部 */
+#bottom {
+	background: url(../img/藏品/数字/footer-bg-red.png) no-repeat;
+	color: #F3EDDF;
+	z-index: 99;
+}
+
+#bottom-Top>div>a {
+	color: #F3EDDF;
+}
+
+#bottom-Top>div>ul>li>a {
+	color: #F3EDDF;
+}
+
+#bottom-beiJing {
+	background: url(../img/藏品/数字/背景.png);
+}
+
+#bottom-Bottom>ul>li>a {
+	color: #F3EDDF;
+}
+
+#bottom-Bottom>a {
+	color: #F3EDDF;
+}
+
+#bottom-Bottom>a>div {
+	color: #7D352B;
+}
+
+#bottom-Center {
+	color: #7D352B;
+}

@@ -1,0 +1,247 @@
+*{
+	list-style: none;
+	box-sizing: border-box;
+	margin: 0px auto;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	/* 默认颜色 */
+	color: #333333;
+}
+/* 设置所有默认超链接 */
+a{
+	color: #333333;
+	text-decoration: none;
+}
+/* 头部 */
+header{
+	color: white;
+	height: 918px;
+	background-color: #E9E2D2;
+	position: relative;
+	top: 0px;
+}
+.head{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100px;
+	padding-top: 20px;
+	z-index: 99;
+}
+.head>nav{
+	float: left;
+	height: 100%;
+}
+.head>nav::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.head>nav:nth-of-type(1){
+	background-color: beige;
+	width: 250px;
+	border-radius: 0px 50rem 50rem 0px; 
+}
+.head>nav:nth-of-type(1):hover{
+	cursor: pointer;
+}
+.head>nav:nth-of-type(1)>img{
+	width: 180px;
+	margin: 25px 35px;
+}
+.head>nav:nth-of-type(2){
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+.head>nav:nth-of-type(2)>ul>li{
+	float: left;
+	margin-right: 20px;
+	line-height: 30px;
+}
+.head>nav:nth-of-type(2)>ul::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.head>nav:nth-of-type(2)>ul:nth-of-type(1){
+	float: right;
+	margin-right: 35px;
+	margin-bottom: 10px;
+}
+.head>nav:nth-of-type(2)>ul:nth-of-type(2){
+	clear: both;
+}
+.head>nav:nth-of-type(2)>ul:nth-of-type(2)>li{
+	line-height: 30px;
+	margin-right: 60px;
+}
+.head>nav:nth-of-type(2)>ul:nth-of-type(2)>li:hover{
+	cursor: pointer;
+}
+.head>nav:nth-of-type(2)>ul>li{
+	position: relative;
+}
+.head>nav:nth-of-type(2)>ul:nth-of-type(2) ul{
+	color: white;
+	line-height: 40px;
+	width: 135px;
+	position: absolute;
+	left: -55px;
+	text-align: center;
+	border-radius: 5px 5px 5px 5px;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+	opacity: 0;
+}
+.head>nav:nth-of-type(2)>ul:nth-of-type(2)>li:hover>ul{
+	display: block;
+	animation: name 0.5s forwards;
+}
+.head>nav:nth-of-type(2)>ul:nth-of-type(2)>li:hover div{
+	display: block;
+}
+.head>nav:nth-of-type(2)>ul:nth-of-type(2)>li>ul>li:hover{
+	animation: xuanze 0.5s forwards;
+}
+/* 动画 */
+/* 下拉框显示动画 */
+@keyframes name{
+	0{
+		opacity: 0.5;
+		color: red;
+	}
+	50%{
+		opacity: 0.8;
+		color: whitesmoke;
+	}
+	100%{
+		opacity: 1;
+		color: whitesmoke;
+	}
+}
+/* 鼠标选择动画 */
+@keyframes xuanze{
+	0{
+		color: white;
+	}
+	50%{
+		color: wheat;
+		
+	}
+	100%{
+		color: wheat;
+		
+	}
+}
+.yinYing{
+	position: absolute;
+	width: 100%;
+	margin-top:-10px;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: -1;
+	box-shadow: 0px 0px 70px #000;
+}
+/* 下拉框的小三角 */
+.xiaoSnanjiao {
+	margin-top: -10px;
+	margin-left: auto;
+	width: 0;
+	height: 0;
+	transform: rotate(180deg);
+	border: 6px solid transparent;
+	border-top-color: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+/* 轮播图 */
+.lunbo{
+	/* height: 920px; */
+	border: 1px solid red;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+.lunbo>nav>video{
+	width: 100%;
+	height: 100%;
+}
+.lunbo>nav>img{
+	width: 100%;
+	height: 100%;
+}
+/* 轮播图下的装饰 */
+#top-bottom-center{
+	position: relative;
+	height: 332px;
+	width: 100%;
+	top: -170px;
+	
+}
+/* 网页主体 */
+section{
+	height: 1000px;
+}
+section nav:hover{
+	cursor: pointer;
+}
+.top{
+	background: url(../img/index/yy-back.png);
+	height: 1353px;
+	position: relative;
+	z-index: -1;
+}
+/* 开放时间 */
+.top-time{
+	border: 1px solid red;
+	width: 1500px;
+	height: 800px;
+}
+.top-time>h2{
+	margin-top: 200px;
+	font-weight: inherit;
+	font-size: 35px;
+	line-height: 50px;
+}
+.top-time>p{
+	line-height: 40px;
+}
+.top-time>p:nth-of-type(2){
+	font-size: 35px;
+	color: #772B21;
+	font-family: 宋体;
+}
+.top-time-dp>ul{
+	margin-top: 10px;
+}
+.top-time-dp>ul>li{
+	float: left;
+	width: 300px;
+	text-align: center;
+}
+.top-time-dp>ul>li>h2 a{
+	font-weight: inherit;
+	font-family: 宋体;
+	font-size: 30px;
+	color: #772B21;
+	line-height: 40px;
+}
+.top-time-dp>ul>li>p{
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.top-time-dp>ul>li>a{
+	display: block;
+	width: 75px;
+	height: 42px;
+	background: url(../img/public/details-red.png);
+}
+.top-time-dp>ul>li>a:hover{
+	background: url(../img/public/details-yellow.png);
+}
+/* 左侧和右侧图标 */
+.top-left-img{
+	
+}

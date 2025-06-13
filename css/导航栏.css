@@ -1,0 +1,208 @@
+* {
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+	
+	/* font-family: 宋体; */
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+#main {
+	width: 1870px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: -5px;
+	position: relative;
+	
+}
+html{
+	zoom: 90%;
+	/* zoom: 90%; */
+	/* width: 100vw; */
+	/* transform: scale(1); */
+}
+/* html{
+	width: 100vw;
+} */
+@media (max-width:1870px) {
+	/* #main {
+		width: 100%;
+	} */
+
+}
+/* 头部部分功能 */
+#head-top {
+	height: 916px;
+	position: relative;
+}
+
+/* 头部部分功能-导航栏 */
+#head-top-daoHang {
+	margin-top: -10px;
+	height: 90px;
+	padding: 20px 0px;
+	/* background-color: rgba(0, 0, 0, 0.1); */
+}
+
+#head-top-daoHang>nav:first-of-type {
+	background-color: #FFFFFF;
+	width: 350px;
+	height: 90px;
+	text-align: center;
+	border-radius: 0px 50rem 50rem 0px;
+	float: left;
+	margin-top: 5px;
+	margin-left: -5px;
+}
+
+#head-top-daoHang::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#head-top-daoHang>nav:first-of-type img {
+	margin-top: 30px;
+}
+
+/* 右侧 */
+#head-top-daoHang>nav:last-of-type {
+	float: right;
+	color: white;
+	font-size: 18px;
+	margin-right: 30px;
+	margin-top: -10px;
+}
+
+.head-top-daoHang-right-top>ul {
+	float: right;
+}
+
+.head-top-daoHang-right-top>ul>li {
+	float: left;
+	width: 110px;
+	text-align: center;
+	height: 50px;
+	line-height: 65px;
+}
+
+.head-top-daoHang-right-top {
+	overflow: hidden;
+}
+
+.head-top-daoHang-right-bottom>ul>li {
+	float: left;
+	width: 100px;
+	text-align: center;
+	height: 30px;
+	line-height: 40px;
+	position: relative;
+}
+
+.head-top-daoHang-right-bottom>ul>li>a {
+	color: white;
+	font-size: 18px;
+
+}
+
+/* 下拉 */
+
+.head-top-daoHang-right-bottom>ul>li nav {
+	position: absolute;
+	left: -5px;
+	top: 5;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* display: none; */
+	opacity: 0;
+	height: 0px;
+	overflow: hidden;
+	transition: all 0.6s ease-out;
+}
+
+.head-top-daoHang-right-bottom>ul>li>nav>a {
+	display: block;
+	width: 100px;
+	color: white;
+	font-size: 12px;
+	line-height: 35px;
+	padding: 5px;
+}
+
+/* 下拉动画 */
+.head-top-daoHang-right-bottom>ul>li>nav {
+	opacity: 1;
+}
+
+.head-top-daoHang-right-bottom>ul>li:nth-of-type(2):hover nav {
+	height: 270px;
+}
+
+.head-top-daoHang-right-bottom>ul>li:nth-of-type(3):hover nav {
+	height: 224px;
+}
+
+.head-top-daoHang-right-bottom>ul>li:nth-of-type(4):hover nav {
+	height: 180px;
+}
+
+.head-top-daoHang-right-bottom>ul>li:nth-of-type(5):hover nav {
+	height: 90px;
+}
+
+.head-top-daoHang-right-bottom>ul>li:nth-of-type(6):hover nav {
+	height: 135px;
+}
+
+.head-top-daoHang-right-bottom>ul>li:nth-of-type(7):hover nav {
+	height: 225px;
+}
+
+.head-top-daoHang-right-bottom>ul>li:nth-of-type(8):hover nav {
+	height: 180px;
+}
+
+.head-top-daoHang-right-bottom>ul>li:nth-of-type(9):hover nav {
+	height: 180px;
+}
+
+.head-top-daoHang-right-bottom>ul>li:nth-of-type(10):hover nav {
+	height: 450px;
+}
+
+.head-top-daoHang-right-bottom>ul>li:nth-of-type(11):hover nav {
+	height: 270px;
+}
+
+/* 颜色渐变动画 */
+.head-top-daoHang-right-bottom>ul>li>nav>a:hover {
+	margin-top: 0px;
+	animation: jianBian 0.3s forwards;
+}
+
+.head-top-daoHang-right-bottom>ul>li:hover>a {
+	color: #EEC383;
+}
+
+@keyframes jianBian {
+	0 {
+		color: white;
+	}
+
+	50% {
+		color: #ffcf8c;
+	}
+
+	100% {
+		color: #EEC383;
+	}
+}
+
+/* 给nav清除浮动 */
+#head-top-daoHang::after {
+	content: '';
+	display: block;
+	clear: both;
+}
